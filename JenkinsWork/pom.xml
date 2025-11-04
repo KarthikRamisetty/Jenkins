@@ -3,4 +3,23 @@
   <groupId>JenkinsWork</groupId>
   <artifactId>JenkinsWork</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+ 
+ <dependencies>
+ <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.38.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+</dependency>
+ </dependencies>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
+
 </project>
